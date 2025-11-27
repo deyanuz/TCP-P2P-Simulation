@@ -1,0 +1,42 @@
+# --- OMNeT++ Build Artifacts ---
+out/
+*.o
+*.o.d
+*.exe
+*.dll
+*.so
+*.a
+
+# Generated message files
+*_m.cc
+*_m.h
+*_m.o
+*_m.o.d
+
+# Generated config/cache
+*.last-copts
+*.nedfolders
+*.nedexclusions
+*.oppbuildspec
+*.qtenvrc
+*.anf
+
+# Eclipse/IDE files
+.project
+.cproject
+.settings/
+*.prefs
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and results
+results/
+*.sca
+*.vec
+
+# Simulation temporary files
+simulations/run
+simulations/*.log
+simulations/*.out
